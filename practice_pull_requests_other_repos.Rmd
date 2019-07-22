@@ -11,6 +11,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Pull requests
 
-Pull requests on other repos has more steps.  Since it's not your own repo you need to worry about upstream changes happening while you are making a pull request.  Here are the manual steps for doing the work, which involves both RStudio drop-down menus as well as Shell commands.  See a good review [here](https://r-bio.github.io/intro-git-rstudio/).
+Pull requests to other repos takes more steps.  Since it's not your own repo you need to worry about upstream changes happening while you are making a pull request.  Here are the manual steps for doing the work, which involves both RStudio drop-down menus as well as Shell commands.  See a good review [here](https://r-bio.github.io/intro-git-rstudio/).
+
+## Fork on GitHub
+
+First you Fork on GitHub.  If the change is minor, you could quickly make a new branch and do the edits and pull request from there.  But you likely want to make a local copy so you can do the work from RStudio/your local computer.
+
+##  Indicate upstream version of project
+
+The repo could be updated while you are making a pull request.  So you need to enter the address of the upstream repository and do `git remote add upstream https://url-to-repository` in the Shell.
+
+## Create a branch
+
+Make a new branch for the fixes.  This can be done in the RStudio Git Pane.
+
+## Make changes
+
+Do any edits you want, and then commit.
 
 
