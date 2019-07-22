@@ -1,0 +1,28 @@
+---
+title: "Practice pull requests"
+author: "Ariel Muldoon"
+date: "7/22/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Pull requests
+ 
+Pull requests can take quite a few steps.  When making a pull request to your own repo, you first will want to make a new branch.  If you have no collaborators, worrying about upstream changes won't be as important. See some info [here](http://r-pkgs.had.co.nz/git.html#git-pullreq) in the R packages book.
+
+You can make a new branch within RStudio or on GitHub (and then pull branch in).  Be sure to switch to new branch and start editing your first file.
+
+## Make commit
+
+Commit changes and push up to the branch.
+
+## Make pull request on GitHub
+
+On GitHub in branch has a "Compare and pull request button".  Push this and add in information to describe process.  
+
+## Continue making commits
+
+Can continue to make commits and push to branch, and changes will be added to pull request.
