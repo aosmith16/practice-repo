@@ -18,3 +18,11 @@ You can make a new branch within RStudio or on GitHub (and then pull branch in).
 ## Make commit
 
 Commit changes and push up to the branch.
+
+## Make pull request on GitHub
+
+On GitHub in branch has a "Compare and pull request button".  Push this and add in information to describe process.  
+
+## Continue making commits
+
+Can continue to make commits and push to branch, and changes will be added to pull request.
