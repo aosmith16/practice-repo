@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Pull requests
  
-Pull requests can take quite a few steps.  When making a pull request to your own repo, you first will want to make a new branch.  If you have no collaborators, worrying about upstream changes won't be as important. See some info [here](http://r-pkgs.had.co.nz/git.html#git-pullreq) in the R packages book.
+Pull requests can take quite a few steps.  When making a pull request to your own repo, you first will want to make a new branch.  If you have no collaborators, worrying about upstream changes won't be as important. See some info [here](https://r-pkgs.org/git.html#git-pullreq) in the R Packages book.
 
 You can make a new branch within RStudio or on GitHub (and then pull branch in).  Be sure to switch to new branch and start editing your first file.
 
@@ -26,3 +26,7 @@ On GitHub in branch has a "Compare and pull request button".  Push this and add 
 ## Continue making commits
 
 Can continue to make commits and push to branch, and changes will be added to pull request.
+
+## Merge
+
+When you're done for the day or what have you, you can merge things to the main branch on GitHub.  You'll be given the option to delete the branch, which is a good time to do that.
