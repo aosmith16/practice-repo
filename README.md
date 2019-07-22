@@ -1,2 +1,3 @@
-# practice-repo
-Repo for practicing merge conflicts, pull requests, collaborators in working sessions
+# A practice repository
+
+This repository is for practicing merge conflicts, pull requests, and adding collaborators in working sessions
