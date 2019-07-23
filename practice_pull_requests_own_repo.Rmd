@@ -1,32 +1,34 @@
 ---
-title: "Practice pull requests"
+title: "Practice pull request on your own repository"
 author: "Ariel Muldoon"
 date: "7/22/2019"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Pull requests
- 
-Pull requests can take quite a few steps.  When making a pull request to your own repo, you first will want to make a new branch.  If you have no collaborators, worrying about upstream changes won't be as important. See some info [here](https://r-pkgs.org/git.html#git-pullreq) in the R Packages book.
+See an example of making a pull request to your own repository [here](https://r-pkgs.org/git.html#git-pullreq) in the R Packages book.
 
-You can make a new branch within RStudio or on GitHub (and then pull branch in).  Be sure to switch to new branch and start editing your first file.
+# Make a new branch
+ 
+Pull requests are simplest when making a pull request to your own repo.  The first step is to make a new branch.  If you have no collaborators or if all collaborators work via pull requests you generally won't need to worry about things on the repo changing while you're working (these are called "upstream changes").  
+
+You can make a new branch within RStudio or on GitHub (if you do this on GitHub remember to Pull to local repository).  Be sure to switch to new branch and start editing your first file.
 
 ## Make commit
 
-Commit changes and push up to the branch.
+Commit your changes and push up to the branch.
 
 ## Make pull request on GitHub
 
-On GitHub in branch has a "Compare and pull request button".  Push this and add in information to describe process.  
+On GitHub in branch has a "Compare and pull request button".  Push this button and add in information to describe what you edited and why.  
 
 ## Continue making commits
 
-Can continue to make commits and push to branch, and changes will be added to pull request.
+You can merge the pull request in at that time, but you can also continue to make commits and push to the branch.  All changes will be added to pull request.
 
 ## Merge
 
-When you're done for the day or what have you, you can merge things to the main branch on GitHub.  You'll be given the option to delete the branch, which is a good time to do that.
+When you're done for the day or done with a particular set of edits, merge things to the main branch on GitHub.  You'll be given the option to delete the branch, which is recommended.  Your next task can be done in a new branch with a new pull request.
