@@ -38,3 +38,10 @@ When you're done for the day or done with a particular set of edits, merge your 
 ## Pull to local repo
 
 When you've merged all changes, go back to the master branch in RStudio and pull in the changes.
+
+## Delete local branches
+
+RStudio doesn't have a point-and-click method for deleting local branches.  See [this thread](https://community.rstudio.com/t/delete-branch-in-rstudio-pop-up/15465).
+
+To delete the branch locally, open the shell/terminal and type
+`git branch -d branchname`
