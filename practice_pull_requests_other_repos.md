@@ -59,9 +59,7 @@ GitHub.
 
 When you go to your repository on GitHub you will see a “Compare and
 pull request” button. Push this button and write a description of what
-is in your pull request. If you don’t know the full extent of the pull
-request yet, no worries. You can add additional comments to the pull
-request as you go.
+is in your pull request.
 
 # Wait for merge or comments
 
