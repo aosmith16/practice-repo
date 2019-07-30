@@ -1,4 +1,4 @@
-# A practice repository
+# A practice repository for working sessions
 
 This repository is for practicing merge conflicts, pull requests, and adding collaborators for Git repositories during the second summertime Git working session.
 
