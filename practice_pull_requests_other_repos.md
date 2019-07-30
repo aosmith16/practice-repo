@@ -1,0 +1,85 @@
+Pull request on other repos
+================
+Ariel Muldoon
+7/22/2019
+
+  - [Fork on GitHub](#fork-on-github)
+  - [Indicate upstream version of
+    project](#indicate-upstream-version-of-project)
+  - [Create a branch](#create-a-branch)
+  - [Make changes](#make-changes)
+  - [Make pull request on GitHub](#make-pull-request-on-github)
+  - [Wait for merge or comments](#wait-for-merge-or-comments)
+  - [Delete branch and/or fork on
+    GitHub](#delete-branch-andor-fork-on-github)
+  - [Delete local version](#delete-local-version)
+
+Pull requests to repositories owned by others takes more steps than when
+doing a pull request on your own repository. In this case you need to
+worry about upstream changes, i.e., changes to the master repository,
+happening during the time your are making the pull request.
+
+The steps for doing the work will involves both RStudio/other Git client
+as well as Shell commands. See a review of the steps
+[here](https://r-bio.github.io/intro-git-rstudio/).
+
+# Fork on GitHub
+
+The first step in a pull request to someone else’s repository is to make
+your own copy of the repository on GitHub via the Fork button.
+
+If the change is minor, you could quickly make a new branch and do the
+proposed edits and pull request from GitHub But you likely want to make
+a local copy so you can do the work from RStudio/your local computer. In
+this latter case, clone the repository locally.
+
+# Indicate upstream version of project
+
+The repository you are working with could be updated while you are
+making a pull request. To have the option to keep up-to-date, you need
+to make sure Git knows what the “upstream” repository is.
+
+To do this in RStudio you can click the “Branch” button in the RStudio
+Git pane, then the “Add Remote” button. Enter “upstream” as the remote
+name and paste the URL for the original repo. Alternatively you can do
+this work via the command line with `git remote add upstream
+https://url-to-repository`.
+
+# Create a branch
+
+Make a new branch for making any edits. This can be done in your Git
+client or on GitHub.
+
+# Make changes
+
+Do the edits you are proposing, and then commit and push the changes to
+GitHub.
+
+# Make pull request on GitHub
+
+When you go to your repository on GitHub you will see a “Compare and
+pull request” button. Push this button and write a description of what
+is in your pull request. If you don’t know the full extent of the pull
+request yet, no worries. You can add additional comments to the pull
+request as you go.
+
+# Wait for merge or comments
+
+Once you have put in the pull request you need to wait for the repo
+owner to respond. They may accept it outright, they may request
+additional changes or fixes from your or do some fixes themselves, or
+they could reject it. They will add comments to the pull request, which
+you will be notified of and can respond to.
+
+# Delete branch and/or fork on GitHub
+
+If your pull request is merged, you will be prompted on GitHub to delete
+the branch. You may also be prompted to delete the fork; if not, you can
+do this manually. If you are going to make additional pull requests to
+the same repo, don’t delete the fork but only the branch.
+
+# Delete local version
+
+Finally, when everything is done and you aren’t planning on doing any
+more work on that repository, you can delete the local version of the
+repository.
