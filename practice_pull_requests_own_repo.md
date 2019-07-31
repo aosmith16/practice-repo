@@ -1,14 +1,14 @@
 Practice pull request on your own repository
 ================
 Ariel Muldoon
-7/22/2019
+7/30/2019
 
   - [Make a new branch](#make-a-new-branch)
   - [Make commit and push](#make-commit-and-push)
   - [Make pull request on GitHub](#make-pull-request-on-github)
       - [Continue making commits](#continue-making-commits)
   - [Merge](#merge)
-  - [Pull to local repo](#pull-to-local-repo)
+  - [Pull to local repository](#pull-to-local-repository)
   - [Delete local branches](#delete-local-branches)
 
 See an example of making a pull request to your own repository
@@ -19,9 +19,9 @@ See an example of making a pull request to your own repository
 Pull requests are simplest when making a pull request to your own
 repository. The first step is to make a new branch. If you have no
 collaborators or if all collaborators work via pull requests you
-generally won’t need to worry about things on the repo changing while
-you’re working (these are called “upstream changes”). This makes the
-process a little more streamlined.
+generally won’t need to worry about things on the repository changing
+while you’re working (these are called “upstream changes”). This makes
+the process a little more streamlined.
 
 If using RStudio you can make a new branch within the RStudio Git pane.
 You can also do this on GitHub (if you do this on GitHub remember to
@@ -58,7 +58,7 @@ the option to delete the branch you were working on, which is
 recommended. Your next task can be done in a new branch with a new pull
 request.
 
-# Pull to local repo
+# Pull to local repository
 
 When you’ve merged all changes, go back to the master branch in RStudio
 and pull in the changes.
