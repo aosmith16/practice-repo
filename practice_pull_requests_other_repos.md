@@ -33,7 +33,7 @@ proposed edits and pull request from GitHub But you likely want to make
 a local copy so you can do the work from RStudio/your local computer. In
 this latter case, clone the repository locally.
 
-# Indicate upstream version of project
+# Indicate the upstream version of project
 
 The repository you are working with could be updated while you are
 making a pull request. To have the option to keep up-to-date, you need
