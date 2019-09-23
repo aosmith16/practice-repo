@@ -1,7 +1,7 @@
 ---
 title: "Pull request on other repos"
 author: "Ariel Muldoon"
-date: "7/22/2019"
+date: "7/30/2019"
 output: 
   github_document:
        toc: TRUE
