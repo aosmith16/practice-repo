@@ -16,7 +16,7 @@ Ariel Muldoon
 
 Pull requests to repositories owned by others takes more steps than when
 doing a pull request on your own repository. In this case you need to
-worry about upstream changes, i.e., changes to the master repository,
+worry about upstream changes; i.e., changes to the master repository,
 happening during the time your are making the pull request.
 
 The steps for doing the work will involves both RStudio/other Git client
