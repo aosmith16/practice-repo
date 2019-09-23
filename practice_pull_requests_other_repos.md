@@ -41,7 +41,7 @@ to make sure Git knows what the “upstream” repository is.
 
 To do this in RStudio you can click the “Branch” button in the RStudio
 Git pane, then the “Add Remote” button. Enter “upstream” as the remote
-name and paste the URL for the original repo. Alternatively you can do
+name and then paste the URL for the original repo. Alternatively you can do
 this work via the command line with `git remote add upstream
 https://url-to-repository`.
 
