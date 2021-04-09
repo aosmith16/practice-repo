@@ -16,7 +16,7 @@ Ariel Muldoon
 
 Pull requests to repositories owned by others takes more steps than when
 doing a pull request on your own repository. In this case you need to
-worry about upstream changes, i.e., changes to the master repository,
+worry about upstream changes; i.e., changes to the master repository,
 happening during the time your are making the pull request.
 
 The steps for doing the work will involves both RStudio/other Git client
@@ -33,7 +33,7 @@ proposed edits and pull request from GitHub But you likely want to make
 a local copy so you can do the work from RStudio/your local computer. In
 this latter case, clone the repository locally.
 
-# Indicate upstream version of project
+# Indicate the upstream version of project
 
 The repository you are working with could be updated while you are
 making a pull request. To have the option to keep up-to-date, you need
@@ -41,7 +41,7 @@ to make sure Git knows what the “upstream” repository is.
 
 To do this in RStudio you can click the “Branch” button in the RStudio
 Git pane, then the “Add Remote” button. Enter “upstream” as the remote
-name and paste the URL for the original repo. Alternatively you can do
+name and then paste the URL for the original repo. Alternatively you can do
 this work via the command line with `git remote add upstream
 https://url-to-repository`.
 
